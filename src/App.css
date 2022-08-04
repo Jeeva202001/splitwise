@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+	margin: 0%;
+	padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main_container {
+	height: 100vh;
+	width: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header {
+	background-color: whitesmoke;
+	height: 5.5vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#profile {
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: rgb(15, 219, 141);
+	border-radius: 50%;
+	float: right;
+	position: relative;
+	right: 1rem;
+	top: 0.4rem;
 }
-
-.App-link {
-  color: #61dafb;
+#logo_name {
+	color: darkblue;
+	font-size: 3rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding-left: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#flex {
+	display: flex;
+}
+#left_condainer {
+	background-color: whitesmoke;
+	height: 94.5vh;
+	width: 12%;
+}
+#sum {
+	background-color: cornflowerblue;
+	width: 95%;
+	height: 3rem;
+	border-radius: 1rem;
+}
+#hide_button {
+	width: 100%;
+	display: none;
+}
+#hide_button1 {
+	width: 100%;
+	display: none;
+}
+#hide_button2 {
+	width: 100%;
+	display: none;
+}
+button {
+	background-color: darkslategrey;
+	width: 90%;
+	height: 2.5rem;
+	border-radius: 1rem;
+	margin: 0.2rem;
+}
+#food {
+	height: 1rem;
+	width: 1rem;
+	background-color: black;
+}
+#right_condainer {
+	background-color: rgb(197, 193, 193);
+	height: 94.5vh;
+	width: 88%;
 }
