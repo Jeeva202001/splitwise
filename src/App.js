@@ -1,5 +1,4 @@
 import "./App.css";
-import food from "./emoji-heart-eyes-fill.svg";
 import img from "./img.png";
 const cal = () => {
 	const hide_button = document.getElementById("hide_button");
@@ -31,7 +30,7 @@ function App() {
 			<div>
 				<div id="header">
 					<img id="profile" alt="lion" src={img} />
-					<p id="logo_name">Raise</p>
+					<p id="logo_name">Splitwise</p>
 				</div>
 			</div>
 			<div id="flex">
@@ -62,7 +61,7 @@ function App() {
 					<div>
 						<div>
 							<button id="sum" onClick={cal1}>
-								<img src={food}></img>TRAVEL EXP
+								TRAVEL EXP
 							</button>
 						</div>
 						<div id="hide_button1">
